@@ -1,0 +1,49 @@
+/* * {
+  background-image: url("https://images.pexels.com/photos/1543766/pexels-photo-1543766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+} */
+
+.interface_container {
+  display: grid;
+  grid-template-rows: 750px;
+}
+
+
+
+
+#main_de_jeu {
+display: flex;
+ width: 400px;
+ height: 100px;
+ background-color: grey;
+ justify-self: center;
+}
+
+#plateau {
+height: 100%;
+width: 100%;
+background-color: green;
+}
+
+#pioche {
+display: flex;
+
+}
+
+.dominos img{
+  width: 50px;
+  height: 100px;
+}
+
+#tuile {
+    width: 50px;
+    height: 100px;
+    background-color: aliceblue;
+    border: dashed black 0.5px;
+}
+
+#tuile2 {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  border: dashed black 0.5px;
+}
